@@ -1,0 +1,21 @@
+{
+  "name": "facetime-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to generate images via Replicate",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.23"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  }
+}
